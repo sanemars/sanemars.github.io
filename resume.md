@@ -16,7 +16,7 @@
 
 - 工作年限：6年
 
-- StackOverflow：https://stackoverflow.com/users/story/5084911
+- StackOverflow：[https://stackoverflow.com/users/story/5084911](https://stackoverflow.com/users/story/5084911)
 
 - 期望职位：Android高级开发工程师
 
