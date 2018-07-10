@@ -1,4 +1,4 @@
-# Sina
+# [新浪网IS部门](http://www.sina.com.cn/)
 ## Android 笔试题
 ### Java 基础
 1. 打印 result.
@@ -40,3 +40,9 @@ String result = fun("SinaMail");
 8. 简述 View 的绘制流程.
 9. 如何规避内存泄漏和溢出,如何排查泄漏或溢出的原因?
 10. 简述对安卓项目架构的理解.
+
+# [新橙科技iCourt](http://www.icourt.cc/)
+
+## 双面试官车轮技术面试
+TCP 建立链接三次握手和断开链接四次握手
+
