@@ -34,9 +34,9 @@
 
   
 
-### [爱盈利ORP](http://sanemars.github.io/archives/iem)
+### [爱盈利ORP](archives/iem)
 
-### 今麦郎终端管理系统
+### [今麦郎终端管理系统](/archives/images/jml_NFC_Tag.gif)
 
 ### 中粮肉食
 - 负责5款App整体可维护性、稳定性及安全性
@@ -59,7 +59,7 @@
   
 
 ## 学习Android程序开发 （ 2014年9月 ~ 2015年3月 ）
-### 微身边
+### [微身边](http://www.circlefil.com/)
 
 - 基于Openfire、Asmack框架的聊天、社交软件。实现了用户注册、登录、添加好友、得到好友分类信息、私聊、群聊，支持文字、表情、图片、语音、地图的发送，话题的发表及在地图上显示话题等功能
 - 聊天内容通过Native进行加密，解密，通过Wireshark来获取网络数据包，查看加密效果
