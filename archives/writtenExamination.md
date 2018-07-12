@@ -55,4 +55,4 @@ TCP 建立链接三次握手和断开链接四次握手
 
 # [酷划在线](http://www.coohua.com/)
 
-# [猎豹移动](http://www.cmcm.com/zh-cn/)
+# [猎豹移动](http://www.cmcm.com/)
