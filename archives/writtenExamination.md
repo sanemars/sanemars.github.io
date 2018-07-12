@@ -53,6 +53,6 @@ TCP 建立链接三次握手和断开链接四次握手
 2. 自定义 View 实现特定形状
 3. Activity 上 显示 window Activity 生命周期方法
 
-#[酷划在线](http://www.coohua.com/)
+# [酷划在线](http://www.coohua.com/)
 
-#[猎豹移动](http://www.cmcm.com/zh-cn/)
+# [猎豹移动](http://www.cmcm.com/zh-cn/)
