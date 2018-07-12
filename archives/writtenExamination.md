@@ -51,6 +51,7 @@ TCP 建立链接三次握手和断开链接四次握手
 
 1. HashMap 与 HashTable 的区别
 2. 自定义 View 实现特定形状
+3. 动画按照指定路径移动
 
 # [酷划在线](http://www.coohua.com/)
 
