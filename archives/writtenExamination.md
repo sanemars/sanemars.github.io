@@ -62,7 +62,7 @@ TCP 建立链接三次握手和断开链接四次握手
 
 1. 请列举 Android 中常用布局 (Layout) 类型,并简述其用法,以及排版效率.
 2. 区别 Animation 和 Animator 的用法,概述实现原理.
-3. Thread,Lopper,MessageQueue,Handler,Message,每个类的功能是什么,这些类之间是什么关系?
+3. Thread,Looper,MessageQueue,Handler,Message,每个类的功能是什么,这些类之间是什么关系?
 4. 如何加载 NDK 库?如何在JNI中注册 native 函数,有几种注册方法?
 5. 操作系统中进程和线程有什么联系和区别? 系统在什么情况下会在用户状态内核态中切换?
 6. 如果一个 APP 里面有多进程存在,请列举你所知道的全部IPC方法.
