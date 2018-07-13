@@ -38,7 +38,7 @@ String result = fun("SinaMail");
 6. 写出开发中遇到的滑动冲突及解决方式.
 7. 如何处理 ScrollView 嵌套 ListView 显示不全的问题?
 8. 简述 View 的绘制流程.
-9. 如何规避内存泄漏和溢出,如何排查泄漏或溢出的原因?
+9. 如何规避内存泄漏和溢出,如何排查泄漏或溢出的原因?,
 10. 简述对安卓项目架构的理解.
 
 # [新橙科技 iCourt ](http://www.icourt.cc/)
@@ -55,4 +55,16 @@ TCP 建立链接三次握手和断开链接四次握手
 
 # [酷划在线](http://www.coohua.com/)
 
+1. 设备弱网优化
+2. GC
+
 # [猎豹移动](http://www.cmcm.com/)
+
+1. 请列举 Android 中常用布局 (Layout) 类型,并简述其用法,以及排版效率.
+2. 区别 Animation 和 Animator 的用法,概述实现原理.
+3. Thread,Lopper,MessageQueue,Handler,Message,每个类的功能是什么,这些类之间是什么关系?
+4. 如何加载 NDK 库?如何在JNI中注册 native 函数,有几种注册方法?
+5. 操作系统中进程和线程有什么联系和区别? 系统在什么情况下会在用户状态内核态中切换?
+6. 如果一个 APP 里面有多进程存在,请列举你所知道的全部IPC方法.
+7. 请画出 MPC、MVP 模式的差异.
+8. 对于 APP 闪退,可能的原因有哪些?请针对每种情况简述分析过程.
