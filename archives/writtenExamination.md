@@ -142,4 +142,6 @@ Unix风格的路径
 
 ```
 
+## LRU 原理
+
 # [马蜂窝](http://www.mafengwo.cn/)
