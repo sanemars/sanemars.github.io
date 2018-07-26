@@ -97,28 +97,47 @@ Unix风格的路径
 
 ```java
 
-public void unixBriefPath() {
+    public void unixBriefPath() {
         String path = "/a/./b/../../c/";
+        //path = "/../../c/";
+        StringBuilder result = new StringBuilder();
+        while (path.startsWith("/..")) {
+            path = path.substring(path.indexOf("/..") + 3);
+            result.append("/..");
+        }
+        if (result.length() > 0) {
+            result.append("/");
+        }
+        String prefix = result.toString();
+        if (result.length() > 0) {
+            result.delete(0, result.length());
+        }
         Stack<String> part = new Stack<>();
         String[] paths = path.split("/");
         String temp;
-        for (String path1 : paths) {
-            temp = path1.trim();
-            if (temp.length() > 0)
+        for (String pt : paths) {
+            temp = pt.trim();
+            if (temp.length() > 0) {
                 if ("..".equals(temp)) {
                     if (!part.isEmpty()) {
                         part.pop();
+                    } else {
+                        part.push(temp);
                     }
                 } else if (!".".equals(temp)) {
                     part.push(temp);
                 }
+            }
         }
-        StringBuilder s = new StringBuilder();
-        for (String ss : part) {
-            s.append(ss).append("/");
+        while (!part.isEmpty()) {
+            result.append(part.pop()).append("/");
         }
-        s.reverse().deleteCharAt(s.lastIndexOf("/"));
-        System.out.println(s.toString());
+        if(prefix.length()>0){
+            result.deleteCharAt(result.lastIndexOf("/"));
+            result.append(prefix);
+        }
+        result.reverse();
+        System.out.println(result.toString());
     }
 
 ```
