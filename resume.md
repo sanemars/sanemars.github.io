@@ -102,7 +102,7 @@
 - 数据库相关：SQLite/MySQL
 - 版本管理、文档和自动化部署工具：Svn/Git/GitBook/Jenkins
 - 自动化测试：Espresso/Spoon
-- 调试工具：AndroidStudio/Fidder/apktool
+- 调试工具：AndroidStudio/fiddler/apktool
 
 # 致谢
 
