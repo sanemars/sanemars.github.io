@@ -95,10 +95,32 @@ Unix风格的路径
 
 /c
 
-### 思路
+```java
 
-* 用一个栈来存储路径中的目录信息，遍历读入的string字符串，当遇到'/'时跳过，遇到不为'/'的字符时累加从而得到当前目录信息，若目录为'.'，则continue，若目录为'..'且栈不为空则pop，否则push该目录到栈中。
+public void unixBriefPath() {
+        String path = "/a/./b/../../c/";
+        Stack<String> part = new Stack<>();
+        String[] paths = path.split("/");
+        String temp;
+        for (String path1 : paths) {
+            temp = path1.trim();
+            if (temp.length() > 0)
+                if ("..".equals(temp)) {
+                    if (!part.isEmpty()) {
+                        part.pop();
+                    }
+                } else if (!".".equals(temp)) {
+                    part.push(temp);
+                }
+        }
+        StringBuilder s = new StringBuilder();
+        for (String ss : part) {
+            s.append(ss).append("/");
+        }
+        s.reverse().deleteCharAt(s.lastIndexOf("/"));
+        System.out.println(s.toString());
+    }
 
-* 循环结束后，栈中的目录则为简化后的目录，但排序为逆序(String reversal)，则通过再次循环累加到string变量中(注意加'/')，输出该变量。
+```
 
 # [马蜂窝](http://www.mafengwo.cn/)
