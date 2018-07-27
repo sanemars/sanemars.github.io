@@ -145,3 +145,7 @@ Unix风格的路径
 ## LRU 原理
 
 # [马蜂窝](http://www.mafengwo.cn/)
+
+1. 自定义 View
+2. 多线程
+3. View 的工作流程 measure layout draw
