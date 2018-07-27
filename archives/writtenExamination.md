@@ -149,3 +149,4 @@ Unix风格的路径
 1. 自定义 View
 2. 多线程
 3. View 的工作流程 measure layout draw
+4. 动画
