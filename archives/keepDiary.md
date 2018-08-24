@@ -65,7 +65,7 @@
 ## 2018-08-22
 
 1. 调研 [HyperLog Android](https://github.com/hypertrack/hyperlog-android)
-2. 规范已有日志输出(统一使用LogUtils)
+2. 规范已有日志输出(统一使用 com.gotokeep.gymlan.common.LogUtils)
 
 ## 2018-08-23
 
