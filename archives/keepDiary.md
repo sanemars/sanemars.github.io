@@ -97,7 +97,7 @@
 
 ## 2018-08-30
 1. sectionSingleLoop 播放模式，修改语音(去掉)、休息时段提示(交换位置)
-2. KeepGym 做成 lancher 包活
+2. KeepGym 做成 lancher 保活
 
 ## 2018-08-31
 1. lego master 合并心率屏与主控合一逻辑
