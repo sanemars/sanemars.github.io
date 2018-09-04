@@ -103,3 +103,7 @@
 ## 2018-08-31
 1. lego master 合并心率屏与主控合一逻辑
 2. 11:00~12:30 lego 技术需求评审
+
+## 2018-09-03
+1. KeepGym 保活(修改 KeepGym 为 Launcher 加入 Android 系统核心服务)
+2. 15:00~16:00 Android Team技术分享 Android 逆向工程
