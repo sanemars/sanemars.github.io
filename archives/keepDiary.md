@@ -107,3 +107,8 @@
 ## 2018-09-03
 1. KeepGym 保活(修改 KeepGym 为 Launcher 加入 Android 系统核心服务)
 2. 15:00~16:00 Android Team技术分享 Android 逆向工程
+
+## 2018-09-04
+1. 集成 SSH 服务
+2. 15:00~16:30 Lego Sprint Meeting
+3. sectionSingleLoop 播放模式修改节数 BUG
