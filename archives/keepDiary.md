@@ -112,3 +112,11 @@
 1. 集成 SSH 服务
 2. 15:00~16:30 Lego Sprint Meeting
 3. sectionSingleLoop 播放模式修改节数 BUG
+
+## 2018-09-05
+1. 集成 SSH 服务
+2. lego 1.0 BUG 修复、发包
+3. lego 2.0 计时逻辑 修复 (心率屏主控合一 主控计时不支持切换 section 及 step)
+
+## 2018-09-06
+1. lego 2.0 计时逻辑 修复 (心率屏主控合一 主控计时不支持切换 section 及 step)
