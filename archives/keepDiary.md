@@ -159,7 +159,7 @@
 4. 17:20~18:30 东城区皇城跑活动 NPC 抽陀螺
 
 ## 2018-09-18
-1. 编写 shell 升级脚本
+1. 编写 shell 升级脚本 + 测试
 2. Android 6.0 广播无法接收问题 (startActivity 显示启动后关闭页面)
 3. 16:00~17:10 Lego Sprint Meeting
 
