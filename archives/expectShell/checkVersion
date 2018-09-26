@@ -1,0 +1,30 @@
+#! /usr/bin/expect
+
+set target [lindex $argv 0]
+set ipfd [open $target r]
+set timeout -1
+while { [gets $ipfd line] >= 0 } {
+    send_user "|-------------------- \n"
+    send_user "| [lindex $line 1] \n"
+    send_user "|-------------------- \n"
+    spawn ssh -p 2222 [lindex $line 0]
+    expect {
+        "*yes/no" {
+            send "yes\r"
+            expect "*password:" {send "admin\r"}
+        }
+        "*password:" { send "admin\r"}
+    }
+    expect "*:*"
+    send "su\r"
+    expect "* #"
+    send "/data/keepShell/./version\r"
+    expect "*versionName*"
+    send "exit\r"
+    expect "* $"
+    send "exit\r"
+    expect "*closed*"
+    send_user "\n"
+}
+close $ipfd
+expect eof
