@@ -286,3 +286,10 @@
 
 ## 2018-11-05
 1. 查系统异常原因并修复[T73834](https://phab.gotokeep.com/T73834)
+
+## 2018-11-06
+1. 编写小米盒子 ROOT 及设置文档[T74135](https://phab.gotokeep.com/T74135)
+2. 替换 Root 权限管理软件[T73201](https://phab.gotokeep.com/T73201)
+
+## 2018-11-07
+1. 替换 Root 权限管理软件 替代方案[T73201](https://phab.gotokeep.com/T73201)
