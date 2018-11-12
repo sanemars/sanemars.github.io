@@ -11,3 +11,4 @@
 - [MACC](https://cloud.ruijie.com.cn/)
 - [Keep Builds](https://gre.gotokeep.com/list/)
 - [KeepGymRelease](https://gre.gotokeep.com/job/KeepGymRelease/)
+- [KJServer](http://10.250.1.2/)
