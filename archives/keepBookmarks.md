@@ -12,3 +12,4 @@
 - [Keep Builds](https://gre.gotokeep.com/list/)
 - [KeepGymRelease](https://gre.gotokeep.com/job/KeepGymRelease/)
 - [KJServer](http://10.250.1.2/)
+- [Photopea](https://www.photopea.com/)
