@@ -330,3 +330,9 @@
 1. 查 青年路达美中心	11:21 左右 1号屏从课程播放页面变为排行榜页面(展示上节课数据)
 2. 15:30~17:00 播放端稳定性性讨论
 3. 18:00~19:00 技术小小分享 by 杨林
+
+## 2018-11-20
+1. Log record ping controller message when connect controller failed
+2. Bugfix bug NPE https://bugly.qq.com/v2/crash-reporting/crashes/d208cf48d7/8256?pid=1
+3. 课程数据处理逻辑优化 (梳理目前数据结构)
+4. 16:00~18:00 LG82、LG83 Lego Sprint Meeting
