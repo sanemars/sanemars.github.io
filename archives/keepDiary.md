@@ -336,3 +336,8 @@
 2. Bugfix bug NPE https://bugly.qq.com/v2/crash-reporting/crashes/d208cf48d7/8256?pid=1
 3. 课程数据处理逻辑优化 (梳理目前数据结构)
 4. 16:00~18:00 LG82、LG83 Lego Sprint Meeting
+
+## 2018-11-21
+1. 课程数据处理逻辑优化 (梳理目前数据结构)
+2. 设置小米盒盒子
+3. 查大望路华贸 09:30~10:30 Power Wave ™ 燃动战绳课休息期间播放屏出现白屏
