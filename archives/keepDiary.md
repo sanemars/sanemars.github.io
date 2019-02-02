@@ -558,6 +558,6 @@
 3. 升级 glide 到 4.8.0 、 realm 到 5.9.0
 
 ## 2019-02-02
-1. 
+1. 修复 Fix OOM https://bugly.qq.com/v2/crash-reporting/crashes/d208cf48d7/11952?pid=1
 ## 2019-02-11
 1.调休
