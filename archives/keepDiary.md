@@ -559,5 +559,14 @@
 
 ## 2019-02-02
 1. 修复 Fix OOM https://bugly.qq.com/v2/crash-reporting/crashes/d208cf48d7/11952?pid=1
+2. 整理 LG88 技术需求
+
 ## 2019-02-11
 1.调休
+
+## 2019-02-12
+1. 查春节假期期间播放系统出现的问题
+2. 16:00~18:00 Lego Sprint Meeting(LG87,LG88)
+
+## 2019-02-13(大年初九)
+
