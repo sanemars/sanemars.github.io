@@ -5,12 +5,12 @@
         "needUpdate": true,
         "detail": {
             "isForce": false,
-            "title": "2.0.11",
+            "title": "2.0.13",
             "hashType": "md5",
-            "url": "https://static1.keepcdn.com/luU4dy_FZ18ZuwpdAKS_q_dGJquL",
-            "hash": "c62c3de29b39851a7f6cd43624448d4b",
+            "url": "https://static1.keepcdn.com/ljg-Zx_6No4T8vaLc3SO0Ndge2mU",
+            "hash": "4d15274c29e044e6223b00dbab03d7b2",
             "content": null,
-            "targetVersion": "2.0.11"
+            "targetVersion": "2.0.13"
         }
     },
     "now": "2019-03-27T06:04:14.113Z",
