@@ -5,15 +5,15 @@
         "needUpdate": true,
         "detail": {
             "isForce": false,
-            "title": "2.0.13",
+            "title": "2.0.15",
             "hashType": "md5",
-            "url": "https://static1.keepcdn.com/lhEikQTREfdm7IiTEjX-sz7DG1Fc",
+            "url": "https://static1.keepcdn.com/ltrwn3gJLPjOmGzadolIXS9UOfzF",
             "hash": "4d15274c29e044e6223b00dbab03d7b2",
             "content": null,
-            "targetVersion": "2.0.13"
+            "targetVersion": "2.0.15"
         }
     },
-    "now": "2019-03-27T06:04:14.113Z",
+    "now": "2019-06-24T12:10:14.113Z",
     "version": "1.0.0",
     "ok": true
 }
