@@ -8,6 +8,7 @@
 int a = 2;
 int result = a+++4<<2;
 ```
+24
 
 2. 打印 result.
 
@@ -16,6 +17,7 @@ Integer a = 56789;
 Integer b = 56789;
 boolean result = a==b;
 ```
+false
 
 3. 打印 result.
 
@@ -26,19 +28,20 @@ String fun(String s){
 
 String result = fun("SinaMail");
 ```
+ java.lang.StackOverflowError
 
-4. 写出两种单例模式.
-5. 多叉树有哪几种遍历方式?用非递归写出其中一种遍历算法.
+4. 写出两种单例模式.(双锁,枚举)
+5. 多叉树有哪几种遍历方式?用非递归写出其中一种[遍历算法](https://www.jianshu.com/p/92d25e5c2cd7).(递归遍历、非递归广度优先遍历、非递归深度优先遍历)
 
 ### Android基础
 1. Activity 和 BroadcastReceiver 的生命周期.
 2. 写出 Activity launchMode 并解释.
 3. 写出几种 Service 和 Activity 的交互方式.
-4. 如何控制多个 Fragment 的显示和隐藏,其生命周期有何区别?
-5. UI 线程和非 UI 线程的交互方式,写出几种各自的耗时.
+4. [如何控制多个 Fragment 的显示和隐藏](https://blog.csdn.net/Yu_yan_ran/article/details/73649720),其生命周期有何区别?
+5. [UI 线程和非 UI 线程的交互方式](https://blog.csdn.net/zh175578809/article/details/73064810),写出几种各自的耗时.
 6. 写出开发中遇到的滑动冲突及解决方式.
 7. 如何处理 ScrollView 嵌套 ListView 显示不全的问题?
-8. 简述 View 的绘制流程.
+8. 简述 View 的绘制流程. 测量、布局、绘制
 9. 如何规避内存泄漏和溢出,如何排查泄漏或溢出的原因?,
 10. 简述对安卓项目架构的理解.
 
@@ -57,7 +60,7 @@ TCP 建立链接三次握手和断开链接四次握手
 # [酷划在线](http://www.coohua.com/)
 
 1. 设备弱网优化
-2. GC
+2. [GC](https://blog.csdn.net/wozuihaole/article/details/81873084) 标记--清除
 
 # [猎豹移动](http://www.cmcm.com/)
 
@@ -150,3 +153,9 @@ Unix风格的路径
 2. 多线程
 3. View 的工作流程 measure layout draw
 4. 动画
+
+# [好未来]()
+1. Handler 机制
+2. [ListView与RecyclerView的区别](https://blog.csdn.net/msc694955868/article/details/80953139)
+2. String 转 int 源码
+3. [反转链表](https://leetcode-cn.com/problems/reverse-linked-list/)
