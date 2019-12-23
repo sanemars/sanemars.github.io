@@ -158,4 +158,4 @@ Unix风格的路径
 1. Handler 机制
 2. [ListView与RecyclerView的区别](https://blog.csdn.net/msc694955868/article/details/80953139)
 2. String 转 int 源码
-3. [反转链表](https://leetcode-cn.com/problems/reverse-linked-list/)
+3. [反转链表](https://leetcode-cn.com/problems/reverse-linked-list/solution/fan-zhuan-lian-biao-by-leetcode/)
