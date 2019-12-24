@@ -154,8 +154,15 @@ Unix风格的路径
 3. View 的工作流程 measure layout draw
 4. 动画
 
-# [好未来](http://www.100tal.com/)
+---
+
+# [好未来](http://www.100tal.com/) 2019-12-23
 1. Handler 机制
 2. [ListView与RecyclerView的区别](https://blog.csdn.net/msc694955868/article/details/80953139)
 2. String 转 int 源码
 3. [反转链表](https://leetcode-cn.com/problems/reverse-linked-list/solution/fan-zhuan-lian-biao-by-leetcode/)
+
+# [快手](https://www.kuaishou.com/) 2019-12-24
+1. Handler 机制
+2. View 的滑动冲突
+3. [回文链表](https://leetcode-cn.com/problems/palindrome-linked-list/)
