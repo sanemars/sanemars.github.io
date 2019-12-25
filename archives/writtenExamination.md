@@ -8,7 +8,7 @@
 int a = 2;
 int result = a+++4<<2;
 ```
-24
+`24`
 
 2. 打印 result.
 
@@ -17,7 +17,7 @@ Integer a = 56789;
 Integer b = 56789;
 boolean result = a==b;
 ```
-false
+`false`
 
 3. 打印 result.
 
@@ -28,7 +28,7 @@ String fun(String s){
 
 String result = fun("SinaMail");
 ```
- java.lang.StackOverflowError
+ `java.lang.StackOverflowError`
 
 4. 写出两种单例模式.(双锁,枚举)
 5. 多叉树有哪几种遍历方式?用非递归写出其中一种[遍历算法](https://www.jianshu.com/p/92d25e5c2cd7).(递归遍历、非递归广度优先遍历、非递归深度优先遍历)
@@ -153,8 +153,6 @@ Unix风格的路径
 2. 多线程
 3. View 的工作流程 measure layout draw
 4. 动画
-
----
 
 # [好未来](http://www.100tal.com/) 2019-12-23
 1. Handler 机制
