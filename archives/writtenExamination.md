@@ -60,7 +60,7 @@ TCP 建立链接三次握手和断开链接四次握手
 # [酷划在线](http://www.coohua.com/)
 
 1. 设备弱网优化
-2. [GC](https://blog.csdn.net/wozuihaole/article/details/81873084) 标记--清除
+2. [GC](https://www.cnblogs.com/qlky/p/7325139.html)
 
 # [猎豹移动](http://www.cmcm.com/)
 
