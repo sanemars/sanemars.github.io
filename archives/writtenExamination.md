@@ -204,13 +204,14 @@ public ThreadPoolExecutor (int corePoolSize,
 			System.out.println(resultQueue.poll().val);
         }
 
-public Queue<TreeNode> outPutNode(TreeNode root,int k) {
+    public Queue<TreeNode> outPutNode(TreeNode root,int k) {
 		if(root==null || k <= 0 ) return null;
 		Queue<TreeNode> queue = new LinkedList<TreeNode>();
 		Get(root,k,queue);
 		return queue;
+	}
 
-private void Get(TreeNode root, int k, Queue<TreeNode> queue) {
+    private void Get(TreeNode root, int k, Queue<TreeNode> queue) {
 		if(root==null || k <= 0 ) return ;
 		if(k==1) {
 			queue.add(root);
@@ -220,7 +221,7 @@ private void Get(TreeNode root, int k, Queue<TreeNode> queue) {
 			Get(root.left, k-1, queue);
 		if(root.right!=null)
 			Get(root.right, k-1, queue);
-}
+    }
 
 ```
 
