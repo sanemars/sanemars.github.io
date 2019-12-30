@@ -168,10 +168,10 @@ Unix风格的路径
 # [字节跳动](https://www.bytedance.com/) 2019-12-30
 1. [View 过渡绘制优化](https://www.jianshu.com/p/cc893397dc9f)
 2. 设计模式
-3. HTTPS
+3. [HTTPS](https://blog.csdn.net/qq_38289815/article/details/80969419)
 4. View 的事件分发机制 (Activity -> Window -> 顶层 View ; ViewGroup 默认不拦截事件, ViewGroup 的 onInterceptTouchEvent 方法默认返回 false ; View 没有 onInterceptTouchEvent 方法，一旦有点击事件传递给它，那么它的 onTouchEvent 方法就会被调用)
 
-```
+```java
 public boolean dispatchTouchEvent (MotionEvent event) { 
     boolean consume = false;
     if (onInterceptTouchEvent (event){
@@ -182,12 +182,11 @@ public boolean dispatchTouchEvent (MotionEvent event) {
     
     return consume;
 }
-
 ```
 
 5. 线程池
 
-```
+```java
 public ThreadPoolExecutor (int corePoolSize, 
                                              int maximumPoolSize,
                                              long keepAliveTime, 
@@ -199,13 +198,11 @@ public ThreadPoolExecutor (int corePoolSize,
 7. 图片加载库，列表视图处理(图片的同步加载、图片的异步加载、图片压缩、内存缓存、磁盘缓存、网络拉取 ; imageView 和图片 url 封装成一个对象)
 8. 二叉树遍历
 
-```
-
+```java
         Queue<TreeNode> resultQueue = outPutNode(root, 2);
 		while(!resultQueue.isEmpty()) {
 			System.out.println(resultQueue.poll().val);
         }
-
 
 public Queue<TreeNode> outPutNode(TreeNode root,int k) {
 		if(root==null || k <= 0 ) return null;
@@ -229,6 +226,7 @@ private void Get(TreeNode root, int k, Queue<TreeNode> queue) {
 
 9. [主线程 Looper 说明](https://blog.csdn.net/songzi1228/article/details/88710399)
 10. Kotlin  标准函数库
+
 | 函数 | 是否传 receiver 值参给 lambda | 是否有相关作用域 | 返回 |
 |-|-|-|-|
 | let | 是 | 否 | lambda 结果 |
