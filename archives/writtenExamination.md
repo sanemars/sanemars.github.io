@@ -227,7 +227,10 @@ public ThreadPoolExecutor (int corePoolSize,
 ```
 
 9. [主线程 Looper 说明](https://blog.csdn.net/songzi1228/article/details/88710399)
-10. Kotlin  标准函数库
+10. [热修复](https://www.jianshu.com/p/2d7b42cbfa70)
+11. [ClassLoader 双亲委派](https://blog.csdn.net/qq_30993595/article/details/97165823)
+12. [RecyclerView 的 item 可见百分比](https://www.jianshu.com/p/b53cdb2eaffb)
+13. Kotlin  标准函数库
 
 | 函数 | 是否传 receiver 值参给 lambda | 是否有相关作用域 | 返回 |
 |-|-|-|-|
