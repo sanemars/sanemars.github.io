@@ -164,3 +164,77 @@ Unix风格的路径
 1. Handler 机制
 2. View 的滑动冲突
 3. [回文链表](https://leetcode-cn.com/problems/palindrome-linked-list/)
+
+# [字节跳动](https://www.bytedance.com/) 2019-12-30
+1. [View 过渡绘制优化](https://www.jianshu.com/p/cc893397dc9f)
+2. 设计模式
+3. HTTPS
+4. View 的事件分发机制 (Activity -> Window -> 顶层 View ; ViewGroup 默认不拦截事件, ViewGroup 的 onInterceptTouchEvent 方法默认返回 false ; View 没有 onInterceptTouchEvent 方法，一旦有点击事件传递给它，那么它的 onTouchEvent 方法就会被调用)
+
+```
+public boolean dispatchTouchEvent (MotionEvent event) { 
+    boolean consume = false;
+    if (onInterceptTouchEvent (event){
+    	consume = onTouchEvent (event);
+    } else {
+    	consume = child.dispatchTouchEvent (envent);
+    }
+    
+    return consume;
+}
+
+```
+
+5. 线程池
+
+```
+public ThreadPoolExecutor (int corePoolSize, 
+                                             int maximumPoolSize,
+                                             long keepAliveTime, 
+                                             TimeUnit unit, 
+                                             BlockingQueue<Runnable> workQueue, 
+                                             ThreadFactory threadFactory)
+```
+6. [synchronized关键字加到static静态方法和非static静态方法区别](https://blog.csdn.net/u010391342/article/details/70258159)
+7. 图片加载库，列表视图处理(图片的同步加载、图片的异步加载、图片压缩、内存缓存、磁盘缓存、网络拉取 ; imageView 和图片 url 封装成一个对象)
+8. 二叉树遍历
+
+```
+
+        Queue<TreeNode> resultQueue = outPutNode(root, 2);
+		while(!resultQueue.isEmpty()) {
+			System.out.println(resultQueue.poll().val);
+        }
+
+
+public Queue<TreeNode> outPutNode(TreeNode root,int k) {
+		if(root==null || k <= 0 ) return null;
+		Queue<TreeNode> queue = new LinkedList<TreeNode>();
+		Get(root,k,queue);
+		return queue;
+
+private void Get(TreeNode root, int k, Queue<TreeNode> queue) {
+		if(root==null || k <= 0 ) return ;
+		if(k==1) {
+			queue.add(root);
+			return;
+		}
+		if(root.left!=null)
+			Get(root.left, k-1, queue);
+		if(root.right!=null)
+			Get(root.right, k-1, queue);
+}
+
+```
+
+9. [主线程 Looper 说明](https://blog.csdn.net/songzi1228/article/details/88710399)
+10. Kotlin  标准函数库
+| 函数 | 是否传 receiver 值参给 lambda | 是否有相关作用域 | 返回 |
+|-|-|-|-|
+| let | 是 | 否 | lambda 结果 |
+| apply | 否 | 是 | 接受者对象 |
+| run | 否 | 是 | lambda 结果 |
+| with | 否 | 是 | lambda 结果 |
+| also | 是 | 否 | 接受着对象 |
+| takeIf | 是 | 否 | 可空类型接受着对象 |
+| takeUnless | 是 | 否 | 可空类型接收者对象 |
