@@ -196,31 +196,32 @@ public ThreadPoolExecutor (int corePoolSize,
 ```
 6. [synchronized关键字加到static静态方法和非static静态方法区别](https://blog.csdn.net/u010391342/article/details/70258159)
 7. 图片加载库，列表视图处理(图片的同步加载、图片的异步加载、图片压缩、内存缓存、磁盘缓存、网络拉取 ; imageView 和图片 url 封装成一个对象)
-8. 二叉树遍历
+8. 找出一棵树某一深度所有节点
 
 ```java
-        Queue<TreeNode> resultQueue = outPutNode(root, 2);
-		while(!resultQueue.isEmpty()) {
-			System.out.println(resultQueue.poll().val);
-        }
+    Queue<TreeNode> resultQueue = outPutNode(root, 2);
+    while(!resultQueue.isEmpty()) {
+        System.out.println(resultQueue.poll().val);
+    }
+
 
     public Queue<TreeNode> outPutNode(TreeNode root,int k) {
-		if(root==null || k <= 0 ) return null;
-		Queue<TreeNode> queue = new LinkedList<TreeNode>();
-		Get(root,k,queue);
-		return queue;
-	}
+        if(root==null || k <= 0 ) return null;
+        Queue<TreeNode> queue = new LinkedList<TreeNode>();
+        Get(root,k,queue);
+        return queue;
+    }
 
     private void Get(TreeNode root, int k, Queue<TreeNode> queue) {
-		if(root==null || k <= 0 ) return ;
-		if(k==1) {
-			queue.add(root);
-			return;
-		}
-		if(root.left!=null)
-			Get(root.left, k-1, queue);
-		if(root.right!=null)
-			Get(root.right, k-1, queue);
+        if(root==null || k <= 0 ) return ;
+        if(k==1) {
+            queue.add(root);
+            return;
+        }
+        if(root.left!=null)
+            Get(root.left, k-1, queue);
+        if(root.right!=null)
+            Get(root.right, k-1, queue);
     }
 
 ```
