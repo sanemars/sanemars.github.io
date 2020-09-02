@@ -1,0 +1,308 @@
+V: ----------
+V: | server_ip:66.42.76.85
+V: | server_name:美国-西雅图-M
+V: | server_port:12330
+V: | server_pwd:LjFzyHsDkls
+V: | encryption:chacha20
+V: | protocol:auth_aes128_sha1
+V: | protocol_param:id25UvKduHJs
+V: | confuse:tls1.2_ticket_auth
+V: | confuse_param:0069686322.microsoft.com
+V: ----------
+V: ----------
+V: | server_ip:45.32.231.128
+V: | server_name:美国-西雅图-L
+V: | server_port:12330
+V: | server_pwd:LjFzyHsDkls
+V: | encryption:chacha20
+V: | protocol:auth_aes128_sha1
+V: | protocol_param:id25UvKduHJs
+V: | confuse:tls1.2_ticket_auth
+V: | confuse_param:0069686322.microsoft.com
+V: ----------
+V: ----------
+V: | server_ip:149.28.15.47
+V: | server_name:美国-西雅图-J
+V: | server_port:12330
+V: | server_pwd:LjFzyHsDkls
+V: | encryption:chacha20
+V: | protocol:auth_aes128_sha1
+V: | protocol_param:id25UvKduHJs
+V: | confuse:tls1.2_ticket_auth
+V: | confuse_param:0069686322.microsoft.com
+V: ----------
+V: ----------
+V: | server_ip:45.77.211.93
+V: | server_name:美国-西雅图-I
+V: | server_port:12330
+V: | server_pwd:LjFzyHsDkls
+V: | encryption:chacha20
+V: | protocol:auth_aes128_sha1
+V: | protocol_param:id25UvKduHJs
+V: | confuse:tls1.2_ticket_auth
+V: | confuse_param:0069686322.microsoft.com
+V: ----------
+V: ----------
+V: | server_ip:66.42.66.224
+V: | server_name:美国-西雅图-H
+V: | server_port:12330
+V: | server_pwd:LjFzyHsDkls
+V: | encryption:chacha20
+V: | protocol:auth_aes128_sha1
+V: | protocol_param:id25UvKduHJs
+V: | confuse:tls1.2_ticket_auth
+V: | confuse_param:0069686322.microsoft.com
+V: ----------
+V: ----------
+V: | server_ip:104.207.158.161
+V: | server_name:美国-西雅图-G
+V: | server_port:12330
+V: | server_pwd:LjFzyHsDkls
+V: | encryption:chacha20
+V: | protocol:auth_aes128_sha1
+V: | protocol_param:id25UvKduHJs
+V: | confuse:tls1.2_ticket_auth
+V: | confuse_param:0069686322.microsoft.com
+V: ----------
+V: ----------
+V: | server_ip:45.63.38.12
+V: | server_name:美国-西雅图-F
+V: | server_port:12330
+V: | server_pwd:LjFzyHsDkls
+V: | encryption:chacha20
+V: | protocol:auth_aes128_sha1
+V: | protocol_param:id25UvKduHJs
+V: | confuse:tls1.2_ticket_auth
+V: | confuse_param:0069686322.microsoft.com
+V: ----------
+V: ----------
+V: | server_ip:137.220.36.162
+V: | server_name:美国-西雅图-E
+V: | server_port:12330
+V: | server_pwd:LjFzyHsDkls
+V: | encryption:chacha20
+V: | protocol:auth_aes128_sha1
+V: | protocol_param:id25UvKduHJs
+V: | confuse:tls1.2_ticket_auth
+V: | confuse_param:0069686322.microsoft.com
+V: ----------
+V: ----------
+V: | server_ip:149.248.38.179
+V: | server_name:美国-西雅图-D
+V: | server_port:12330
+V: | server_pwd:LjFzyHsDkls
+V: | encryption:chacha20
+V: | protocol:auth_aes128_sha1
+V: | protocol_param:id25UvKduHJs
+V: | confuse:tls1.2_ticket_auth
+V: | confuse_param:0069686322.microsoft.com
+V: ----------
+V: ----------
+V: | server_ip:66.42.69.64
+V: | server_name:美国-西雅图-C
+V: | server_port:12330
+V: | server_pwd:LjFzyHsDkls
+V: | encryption:chacha20
+V: | protocol:auth_aes128_sha1
+V: | protocol_param:id25UvKduHJs
+V: | confuse:tls1.2_ticket_auth
+V: | confuse_param:0069686322.microsoft.com
+V: ----------
+V: ----------
+V: | server_ip:104.238.156.186
+V: | server_name:美国-西雅图-B
+V: | server_port:12330
+V: | server_pwd:LjFzyHsDkls
+V: | encryption:chacha20
+V: | protocol:auth_aes128_sha1
+V: | protocol_param:id25UvKduHJs
+V: | confuse:tls1.2_ticket_auth
+V: | confuse_param:0069686322.microsoft.com
+V: ----------
+V: ----------
+V: | server_ip:149.28.14.139
+V: | server_name:美国-西雅图-A
+V: | server_port:12330
+V: | server_pwd:LjFzyHsDkls
+V: | encryption:chacha20
+V: | protocol:auth_aes128_sha1
+V: | protocol_param:id25UvKduHJs
+V: | confuse:tls1.2_ticket_auth
+V: | confuse_param:0069686322.microsoft.com
+V: ----------
+V: ----------
+V: | server_ip:149.248.18.239
+V: | server_name:美国-洛杉矶-C
+V: | server_port:12330
+V: | server_pwd:LjFzyHsDkls
+V: | encryption:chacha20
+V: | protocol:auth_aes128_sha1
+V: | protocol_param:id25UvKduHJs
+V: | confuse:tls1.2_ticket_auth
+V: | confuse_param:0069686322.microsoft.com
+V: ----------
+V: ----------
+V: | server_ip:45.32.77.244
+V: | server_name:美国-洛杉矶-B
+V: | server_port:12330
+V: | server_pwd:LjFzyHsDkls
+V: | encryption:chacha20
+V: | protocol:auth_aes128_sha1
+V: | protocol_param:id25UvKduHJs
+V: | confuse:tls1.2_ticket_auth
+V: | confuse_param:0069686322.microsoft.com
+V: ----------
+V: ----------
+V: | server_ip:149.28.31.23
+V: | server_name:日本-东京-F
+V: | server_port:12330
+V: | server_pwd:LjFzyHsDkls
+V: | encryption:chacha20
+V: | protocol:auth_aes128_sha1
+V: | protocol_param:id25UvKduHJs
+V: | confuse:tls1.2_ticket_auth
+V: | confuse_param:0069686322.microsoft.com
+V: ----------
+V: ----------
+V: | server_ip:45.32.11.122
+V: | server_name:日本-东京-E
+V: | server_port:12330
+V: | server_pwd:LjFzyHsDkls
+V: | encryption:chacha20
+V: | protocol:auth_aes128_sha1
+V: | protocol_param:id25UvKduHJs
+V: | confuse:tls1.2_ticket_auth
+V: | confuse_param:0069686322.microsoft.com
+V: ----------
+V: ----------
+V: | server_ip:66.42.40.68
+V: | server_name:日本-东京-D
+V: | server_port:12330
+V: | server_pwd:LjFzyHsDkls
+V: | encryption:chacha20
+V: | protocol:auth_aes128_sha1
+V: | protocol_param:id25UvKduHJs
+V: | confuse:tls1.2_ticket_auth
+V: | confuse_param:0069686322.microsoft.com
+V: ----------
+V: ----------
+V: | server_ip:202.182.102.204
+V: | server_name:日本-东京-C
+V: | server_port:12330
+V: | server_pwd:LjFzyHsDkls
+V: | encryption:chacha20
+V: | protocol:auth_aes128_sha1
+V: | protocol_param:id25UvKduHJs
+V: | confuse:tls1.2_ticket_auth
+V: | confuse_param:0069686322.microsoft.com
+V: ----------
+V: ----------
+V: | server_ip:139.180.200.183
+V: | server_name:日本-东京-B
+V: | server_port:12330
+V: | server_pwd:LjFzyHsDkls
+V: | encryption:chacha20
+V: | protocol:auth_aes128_sha1
+V: | protocol_param:id25UvKduHJs
+V: | confuse:tls1.2_ticket_auth
+V: | confuse_param:0069686322.microsoft.com
+V: ----------
+V: ----------
+V: | server_ip:149.28.148.34
+V: | server_name:新加坡-新加坡-G
+V: | server_port:12330
+V: | server_pwd:LjFzyHsDkls
+V: | encryption:chacha20
+V: | protocol:auth_aes128_sha1
+V: | protocol_param:id25UvKduHJs
+V: | confuse:tls1.2_ticket_auth
+V: | confuse_param:0069686322.microsoft.com
+V: ----------
+V: ----------
+V: | server_ip:66.42.56.145
+V: | server_name:新加坡-新加坡-D
+V: | server_port:12330
+V: | server_pwd:LjFzyHsDkls
+V: | encryption:chacha20
+V: | protocol:auth_aes128_sha1
+V: | protocol_param:id25UvKduHJs
+V: | confuse:tls1.2_ticket_auth
+V: | confuse_param:0069686322.microsoft.com
+V: ----------
+V: ----------
+V: | server_ip:207.148.79.186
+V: | server_name:新加坡-新加坡-C
+V: | server_port:12330
+V: | server_pwd:LjFzyHsDkls
+V: | encryption:chacha20
+V: | protocol:auth_aes128_sha1
+V: | protocol_param:id25UvKduHJs
+V: | confuse:tls1.2_ticket_auth
+V: | confuse_param:0069686322.microsoft.com
+V: ----------
+V: ----------
+V: | server_ip:45.32.14.29
+V: | server_name:新加坡-新加坡-B
+V: | server_port:12330
+V: | server_pwd:LjFzyHsDkls
+V: | encryption:chacha20
+V: | protocol:auth_aes128_sha1
+V: | protocol_param:id25UvKduHJs
+V: | confuse:tls1.2_ticket_auth
+V: | confuse_param:0069686322.microsoft.com
+V: ----------
+V: ----------
+V: | server_ip:45.76.187.139
+V: | server_name:新加坡-新加坡-A
+V: | server_port:12330
+V: | server_pwd:LjFzyHsDkls
+V: | encryption:chacha20
+V: | protocol:auth_aes128_sha1
+V: | protocol_param:id25UvKduHJs
+V: | confuse:tls1.2_ticket_auth
+V: | confuse_param:0069686322.microsoft.com
+V: ----------
+V: ----------
+V: | server_ip:8.210.135.25
+V: | server_name:中国-香港-D
+V: | server_port:12330
+V: | server_pwd:LjFzyHsDkls
+V: | encryption:chacha20
+V: | protocol:auth_aes128_sha1
+V: | protocol_param:id25UvKduHJs
+V: | confuse:tls1.2_ticket_auth
+V: | confuse_param:0069686322.microsoft.com
+V: ----------
+V: ----------
+V: | server_ip:8.210.201.42
+V: | server_name:中国-香港-C
+V: | server_port:12330
+V: | server_pwd:LjFzyHsDkls
+V: | encryption:chacha20
+V: | protocol:auth_aes128_sha1
+V: | protocol_param:id25UvKduHJs
+V: | confuse:tls1.2_ticket_auth
+V: | confuse_param:0069686322.microsoft.com
+V: ----------
+V: ----------
+V: | server_ip:8.210.196.9
+V: | server_name:中国-香港-B
+V: | server_port:12330
+V: | server_pwd:LjFzyHsDkls
+V: | encryption:chacha20
+V: | protocol:auth_aes128_sha1
+V: | protocol_param:id25UvKduHJs
+V: | confuse:tls1.2_ticket_auth
+V: | confuse_param:0069686322.microsoft.com
+V: ----------
+V: ----------
+V: | server_ip:8.210.94.19
+V: | server_name:中国-香港-A
+V: | server_port:12330
+V: | server_pwd:LjFzyHsDkls
+V: | encryption:chacha20
+V: | protocol:auth_aes128_sha1
+V: | protocol_param:id25UvKduHJs
+V: | confuse:tls1.2_ticket_auth
+V: | confuse_param:0069686322.microsoft.com
+V: ----------
