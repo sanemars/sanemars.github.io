@@ -20,6 +20,7 @@
 - [Gitlab](http://gitlab.itma.com.cn/explore/projects)
 - [播放系统问题记录](https://docs.google.com/spreadsheets/d/1PbOn-SuKlpRoU8l1foxmuF8b0xkJRhKEiOXkF7_2U2Q/edit#gid=673178046)
 - [Online diff](https://www.diffchecker.com/diff)
+- [upscale](https://www.upscale.media/zh]
 
 ---
 
