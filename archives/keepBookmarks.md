@@ -21,7 +21,7 @@
 - [播放系统问题记录](https://docs.google.com/spreadsheets/d/1PbOn-SuKlpRoU8l1foxmuF8b0xkJRhKEiOXkF7_2U2Q/edit#gid=673178046)
 - [Online diff](https://www.diffchecker.com/diff)
 - [upscale](https://www.upscale.media/zh)
-
+- [爱达杂货铺](https://adzhp.net/)
 ---
 
 - <A HREF="https://kibana-lg.sre.gotokeep.com/app/kibana#/discover?_g=(refreshInterval:(pause:!t,value:0),time:(from:now%2Fd,mode:quick,to:now%2Fd))&_a=(columns:!(deviceTitle,message),index:'3005b460-dec3-11e9-80e5-6768d0ffd7c9',interval:auto,query:(language:lucene,query:'gymId:%205bf7ca0463d2c4443da26dce%20AND%20tag:AUTOMATION'),sort:!('@timestamp',desc))" ADD_DATE="1561714736" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABd0lEQVQ4jZWSuy9DARTGv3Pv7dVWg4pEPSI6lMUjHolO3tpEgolF1EDaSA1EQmJBYkMisZBiEItBUm6RCLfEJOJ/6KY2Kl6LY+CKx231ftPJd/L9ck7OIXzqrnuVkb5uWWC3PTwSkwyEND0RC105YX8MAASD4Tdm6s9W/FeaYQjATBN2JRD+7qUNYMKKXQks//bTAhBDyamJj+n2tKLZ7WGHaEOBmIkKOQ8dZieyBBlgun55tTQ5jn2PKQH1DS0/zmgiAT1WV2LUXFluOwzGk02XdAUZIhPTgG287BlnkV5DAAkCvFbn5NTC0BGkl10w70BVfGkD2i3OjWl1bREPNyEAbQAIhE2o+33/AhrNxRfzZ+vDiCozAAa/tUQQbeNU8SQF1Mr5saXzrSZEI4MAZnWGM0HAnC7AJdnvq8XcSlIjrQCH9Fb7lBsne1V/ADUZRXXBmc5SEO8CMKUAAJIY0MqvP0D0wAF6uwSjJGX4I5XAq1wIr/fxHfePZByGn0zuAAAAAElFTkSuQmCC">常营华联店</A>
