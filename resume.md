@@ -1,6 +1,7 @@
+
 # 联系方式
 
-- 手机：18010456857
+- 手机：13313678256
 
 - Email：tsanemars@gmail.com
 
@@ -12,21 +13,32 @@
 
 - 本科/东北林业大学机械电子工程专业
 
-- 相关工作年限：5年
+- 相关工作年限：8年
 
-- 工作年限：7年
+- 工作年限：10年
 
 - StackOverflow：[https://stackoverflow.com/users/story/5084911](https://stackoverflow.com/users/story/5084911)
 
 - 期望职位：Android高级开发工程师
 
-- 期望薪资：税前月薪27k
+- 期望薪资：税前月薪32k
 
 - 期望城市：北京
 
 
 
 # 工作经历
+
+## 北京卡路里信息技术有限公司) （ 2020年11月 ~ 2013年8月 ）
+
+### Keep 直播课
+- 负责设计、开发、维护
+- 完成直播业务框架的两次升级。使用 View Intersects  实现无业务逻辑关联的蒙层互斥管理器；使用 LiveData 实现模块与模块间、模块与模块插件间、模块插件与模块插件无耦合通信管理器。并提功能了模块无限扩展能力；使用 AsyncLayoutInflater 加载各个模块、插件布局减少模块集中初始化时页面的卡顿
+- 编写直播业务模版代码生成插件，提升开发效率
+- 从用户体验测优化直播间秒开 ，优化直播间相关仪表盘绘制（视图缓存，shader 复用，禁绘重叠区域），内存泄漏排查修复
+- 
+### 其他
+- 认真仔细进行 code review，通过 code review 阶段避免数个 P0，P1 问题
 
 ## Keep(北京卡路里体育有限公司) （ 2018年8月 ~ 2019年12月 ）
 
@@ -39,7 +51,7 @@
 - 解决[体感游戏](/archives/images/motionSensingame.gif)技术难点，实现100ms以内延迟视频传输 (3D景深摄像头与游戏服务器连接，负责骨骼、动作识别，Android 盒子负责展示结果)
 
 ### 播放系统安装管家
-- 为提高系统部署效率简化人工操作，开发播放系统安装管家，人工仅需操作3步，即可完成电视盒子的 root，播放系统的安装、设置等操作 (利用 AccessibilityService、Shell 脚本、Settings)
+- 人工仅需操作3步，即可完成电视盒子的 root，播放系统的安装、设置等操作 (利用 AccessibilityService、Shell 脚本、Settings)
 
 ### 其他项目
 - 主导设计 Keepland 空间使用 Keep 手环收集心率技术方案
@@ -112,7 +124,7 @@
 
 以下均为我熟练使用的技能
 
-- 移动开发：Android/Java/JNI/Groovy
+- 移动开发：Android/Java/Kotlin/Jetpack/JNI/Groovy
 - 移动端框架：okhttp/retrofit/glide/butterknife/MPAndroidChart/ANR-WatchDog/sqlcipher/CoAP
 - 数据库相关：SQLite/MySQL
 - 版本管理、文档和自动化部署工具：Svn/Git/GitBook/Jenkins/Phabricator
