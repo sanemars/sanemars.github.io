@@ -39,7 +39,7 @@
 ### 课程引擎
 
 - 为提高户投屏练课体验，完善、优化基于 DLNA 的训练进度与投屏播放进度同步逻辑，增加智慧投屏，镜像投屏能力
-- 使用单独进程与 AIDL 在用户无感知的情况下 实现并完善Keep DMC
+- 使用单独进程与 AIDL 在用户无感知的情况下 实现并完善 Keep DMC
 
 ### KeepLand
 
@@ -72,10 +72,10 @@
 ### 中粮肉食
 
 - 带领5人团队负责5款 App 的开发、整体可维护性、稳定性及安全性
-- 为降低App升级时产生的流量(流量费用来自七牛，截至2018年3月节约流量1.4TB)，实现App的增量升级(使用bsdiff计算APK文件二进制差异，并通过Huffman算法压缩生成的差异文件)。过程中遇到 signal内联函数在android-21平台下被取消的问题，通过修改 targetSdkVersion 生成不同 so 库，针对相应平台加载不同版本的 so 库。并发现android-21平台下生成的so库体积小，故通过 Flavors 生成适用于不同平台的 App(android-21平台下的 App 体积更小)
+- 为降低 App 升级时产生的流量(流量费用来自七牛，截至2018年3月节约流量1.4TB)，实现App的增量升级(使用 bsdiff 计算APK文件二进制差异，并通过 Huffman 算法压缩生成的差异文件)。过程中遇到 signal 内联函数在 android-21 平台下被取消的问题，通过修改 targetSdkVersion 生成不同 so 库，针对相应平台加载不同版本的 so 库。并发现android-21平台下生成的 so 库体积小，故通过 Flavors 生成适用于不同平台的 App(android-21平台下的 App 体积更小)
 - 为方便开发人员快速定位、修复用户使用 App 过程中遇到的崩溃，引入应用崩溃收集系统（BugTags）。第一时间获取异常信息，并经过一段时间的持续收集使应用的崩溃率从2%降低到0.1%
-- 为减少因修复 App BUG 而升级的情况，引入热修复机制。先后调研了Tinker(基于 multidex)与AndFix(基于native hook)后者对系统资源占用很少，但因为Android系统所用虚拟机和指令集的问题导致兼容性较差，最后采用 Robust(插桩，兼顾性能和实时修复)实现热修复。可在用户无感的情况下修复BUG，提高了用户体验
-- 因业务需要，App必须支持离线操作，导致大量业务数据存储在 SQLite 中，考虑到安全性，需对数据进行加密。采用了sqlcipher，因涉及到用户App上的历史数据(历史数据未加密)， 故实现了数据的自动切换(未加密数据切换成加密数据)。并在使用sqlcipher的过程中发现3.58 、3.59版本，在 armebi 下 limit语句的[BUG](https://github.com/sqlcipher/android-database-sqlcipher/issues/374)
+- 为减少因修复 App BUG 而升级的情况，引入热修复机制。先后调研了Tinker (基于 multidex)与 AndFix (基于native hook) 后者对系统资源占用很少，但因为 Android 系统所用虚拟机和指令集的问题导致兼容性较差，最后采用 Robust (插桩，兼顾性能和实时修复) 实现热修复。可在用户无感的情况下修复 BUG，提高了用户体验
+- 因业务需要，App 必须支持离线操作，导致大量业务数据存储在 SQLite 中，考虑到安全性，需对数据进行加密。采用了sqlcipher，因涉及到用户 App 上的历史数据(历史数据未加密)， 故实现了数据的自动切换(未加密数据切换成加密数据)。并在使用 sqlcipher 的过程中发现3.58 、3.59版本，在 armebi 下 limit语句的[BUG](https://github.com/sqlcipher/android-database-sqlcipher/issues/374)
 - 因长期迭代及暴力开发，导致应用内，存在大量的 Cursor 泄漏，人工查找效率低下且容易遗漏，故在 Debug 版及 Beta 版 App 中集成 Cursor 泄漏监控器，发现 Cursor 泄漏后第一时间将泄漏位置日志上报到服务器，方便开发人员统一修复
 - 为查找莫名原因造成的 App 异常，开发实时日志收集系统。用户开启后，开发人员可在后台实时查看用户端上传的日志，方便排查问题
 - 为提高 App 防破解能力，实现 Native 层的 App 签名校验
@@ -97,9 +97,9 @@
 - 聊天内容通过 Native 进行加密，解密，通过 Wireshark 来获取网络数据包，查看加密效果
 - 采用多个自定义 View 如 SlidingMenu，GifView，CircleImageView
 - 采用异步联网框架 AsyncHttpClient,异步加载图片
-- 采用单例，工厂，IOC,观察者等设计模式
+- 采用单例，工厂，IOC，观察者等设计模式
 - 实现服务器上的 Servlet，存放最新版本的 APK，客户端通过网络得获取最新版本，进行 App 版本管理
-- 发送图片时，用 Base64 将图片转成字符串，收到后再用单线程轮询机制进行 Base64 解码，并存入SD card。发语音时用 MediaRecorder录音，存到 SD card 上再用 MediaPlayer 进行播放
+- 发送图片时，用 Base64 将图片转成字符串，收到后再用单线程轮询机制进行 Base64 解码，并存入SD card。发语音时用 MediaRecorder 录音，存到 SD card 上再用 MediaPlayer 进行播放
 - 通过此项目，提高了编写 Android 应用软件的综合能理。了解了Android NDK 的使用，强化了使用第三方框架做二次开发的能力
 
 ## 哈尔滨分众传媒有限公司 （ 2014年3月 ~ 2014年8月 ）
