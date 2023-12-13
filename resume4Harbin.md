@@ -18,9 +18,9 @@
 
 - StackOverflow：[https://stackoverflow.com/users/story/5084911](https://stackoverflow.com/users/story/5084911)
 
-- 期望职位：Android高级开发工程师
+- 期望职位：Android 高级开发工程师
 
-- 期望薪资：税前月薪12k
+- 期望薪资：税前月薪 12k
 
 - 期望城市：哈尔滨
 
