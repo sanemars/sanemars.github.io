@@ -112,19 +112,19 @@
 
 ### 主营虚拟物品
 
-- 增强了Photoshop 处理图片的能力，学会了 Illustrator 的使用
+- 增强了 Photoshop 处理图片的能力，学会了 Illustrator 的使用
 
 ## 哈尔滨空调股份有限公司（ 2012年9月 ~ 2013年2月 ）
 
 ### 产品检查员
 
-- 按照行业标准，严格执行企业规章制度要求，严把质量检验关，做到出厂产品合格率100%
+- 按照行业标准，严格执行企业规章制度要求，严把质量检验关，做到出厂产品合格率 100%
 - 归档文件、材料明细清晰
 
 # 演讲和讲义
 
-- 2018年1月：[竞品分析之安全性](https://sanemars.github.io/archives/competitiveAnalysis.html#/)
-- 2019年1月：[CoAP 简介与使用](https://yanshuo.io/assets/player/?deck=5c231e434773f7173688424e#/)
+- 2018 年 1 月：[竞品分析之安全性](https://sanemars.github.io/archives/competitiveAnalysis.html#/)
+- 2019 年 1 月：[CoAP 简介与使用](https://yanshuo.io/assets/player/?deck=5c231e434773f7173688424e#/)
 
 # 技能清单
 
